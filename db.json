@@ -33,5 +33,11 @@
          "cliente_id":2,
          "odometro":15000
       }
-   ]
+   ],
+   "vehiculo":{
+      "id":1,
+      "matricula":"SAA1234",
+      "vin":"abcdefg0123456789",
+      "":"Onix"
+   }
 }
