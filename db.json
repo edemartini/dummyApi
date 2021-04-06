@@ -39,5 +39,42 @@
       "matricula":"SAA1234",
       "vin":"abcdefg0123456789",
       "modelo":"Onix"
+   },
+   "auto":{
+      "vin":"44444444444444444",
+      "servicios": [
+         {
+            "id":4,
+            "cliente":{
+               "id":13,
+               "nombre":"Adrian Droide",
+               "cedula":11111111,
+               "direccion":"Coquimbo 2311"
+            },
+            "odometro":3000
+         }, 
+         {
+            "id":5,
+            "cliente":{
+               "id":22,
+               "nombre":"Andres Cupido",
+               "cedula":56752659,
+               "direccion":"Miraflores 2314"
+            },
+            "odometro":400
+         }, 
+         {
+            "id":6,
+            "cliente":{
+               "id":26,
+               "nombre":"Desde Api Gutierrez",
+               "cedula":23453456,
+               "direccion":"Lei Land 2020"
+            },
+            "odometro":3455
+         }
+      ],
+      "matricula":"saa1414",
+      "modelo":"galop"
    }
 }
