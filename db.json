@@ -42,7 +42,7 @@
    },
    "auto":{
       "vin":"44444444444444444",
-      "servicios": [
+      "servicios":[
          {
             "id":4,
             "cliente":{
@@ -52,7 +52,7 @@
                "direccion":"Coquimbo 2311"
             },
             "odometro":3000
-         }, 
+         },
          {
             "id":5,
             "cliente":{
@@ -62,7 +62,7 @@
                "direccion":"Miraflores 2314"
             },
             "odometro":400
-         }, 
+         },
          {
             "id":6,
             "cliente":{
