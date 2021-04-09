@@ -1,80 +1,176 @@
 {
-   "cliente":[
+   "clientes":[
       {
          "id":1,
-         "nombre":"Ines Tornudo",
-         "cedula":13336668,
-         "direccion":"Cerro Bajo 2032"
+	 "tipo_identificador":"CI",
+         "nro_identificador":12345678,
+         "direccion":"Ficticia 1234",
+         "localidad":"Montevideo",
+         "departamento":"Montevideo",
+         "pais":"Uruguay",
+         "telefono":"21234567",
+         "celular":"099123456",
+         "email":"masqueroso@gmail.com",
+         "concesionario_id":1,
+         "nombre":"Matías Queroso"
+      },
+      {
+         "id":2,
+	 "tipo_identificador":"CI",
+         "nro_identificador":87654321,
+         "direccion":"Coquimbo 4321",
+         "localidad":"Carmelo",
+         "departamento":"Colonia",
+         "pais":"Uruguay",
+         "telefono":"41234567",
+         "celular":"099654321",
+         "email":"iqueleto@gmail.com",
+         "concesionario_id":1,
+         "nombre":"Inés Queleto"
+      },
+      {
+         "id":3,
+	 "tipo_identificador":"RUT",
+         "nro_identificador":123456780012,
+         "direccion":"Miraflores 4444",
+         "localidad":"Maldonado",
+         "departamento":"Maldonado",
+         "pais":"Uruguay",
+         "telefono":"45558888",
+         "celular":"099112233",
+         "email":"info@tontaprole.com.uy",
+         "concesionario_id":1,
+         "nombre":"Tontaprole S.A."
+      },
+      {
+         "id":4,
+	 "tipo_identificador":"CI",
+         "nro_identificador":12223334,
+         "direccion":"Pisaflores 2832",
+         "localidad":"Palo Chato",
+         "departamento":"Tacuarembó",
+         "pais":"Uruguay",
+         "telefono":"41112222",
+         "celular":"099332211",
+         "email":"alex.plosivo@gmail.com.uy",
+         "concesionario_id":1,
+         "nombre":"Alex Plosivo"
       }
    ],
    "servicios":[
       {
-         "id":1,
-         "cliente_id":1,
-         "odometro":1000
-      },
-      {
          "id":2,
-         "cliente_id":1,
-         "odometro":5000
-      },
-      {
-         "id":3,
-         "cliente_id":2,
-         "odometro":1000
-      },
-      {
-         "id":4,
-         "cliente_id":2,
-         "odometro":5000
+         "sucursal":"San José",
+         "odometro":10000,
+         "fecha_entrada":"2021-01-02",
+         "fecha_salida":null,
+         "nro_orden":1,
+         "tipo_orden":"EXT",
+         "motivo_ingreso":"MAN",
+         "detalle":null,
+         "monto_factura":null,
+         "vehiculo":{
+            "nro_vin":"123456789abcdefgh",
+            "nro_motor":"884422",
+            "modelo":"Topacio",
+            "version":"Full",
+	    "color":"Rojo",
+            "fecha_alta":"2020-10-01",
+            "publico":true,
+            "image":null,
+            "nro_matricula":"sab1234"
+         },
+         "cliente":{
+            "id":2,
+	    "tipo_identificador":"CI",
+            "nro_identificador":87654321,
+            "direccion":"Coquimbo 4321",
+            "localidad":"Carmelo",
+            "departamento":"Colonia",
+            "pais":"Uruguay",
+            "telefono":"41234567",
+            "celular":"099654321",
+            "email":"iqueleto@gmail.com",
+            "concesionario_id":1,
+            "nombre":"Inés Queleto"
+         },
+         concesionario_id:1
       },
       {
          "id":5,
-         "cliente_id":2,
-         "odometro":15000
-      }
-   ],
-   "vehiculo":{
-      "id":1,
-      "matricula":"SAA1234",
-      "vin":"abcdefg0123456789",
-      "modelo":"Onix"
-   },
-   "auto":{
-      "vin":"44444444444444444",
-      "servicios":[
-         {
+         "sucursal":"Enano Gigante",
+         "odometro":20000,
+         "fecha_entrada":"2021-03-18",
+         "fecha_salida":null,
+         "nro_orden":20,
+         "tipo_orden":"EXT",
+         "motivo_ingreso":"MAN",
+         "detalle":null,
+         "monto_factura":null,
+         "vehiculo":{
+            "nro_vin":"abcdefgh123456789",
+            "nro_motor":"224488",
+            "modelo":"Amatista",
+            "version":"Standard",
+	    "color":"Azul",
+            "fecha_alta":"2020-11-01",
+            "publico":true,
+            "image":null,
+            "nro_matricula":"bas4321"
+         },
+         "cliente":{
             "id":4,
-            "cliente":{
-               "id":13,
-               "nombre":"Adrian Droide",
-               "cedula":11111111,
-               "direccion":"Coquimbo 2311"
-            },
-            "odometro":3000
+	    "tipo_identificador":"CI",
+            "nro_identificador":12223334,
+            "direccion":"Pisaflores 2832",
+            "localidad":"Palo Chato",
+            "departamento":"Tacuarembó",
+            "pais":"Uruguay",
+            "telefono":"41112222",
+            "celular":"099332211",
+            "email":"alex.plosivo@gmail.com.uy",
+            "concesionario_id":1,
+            "nombre":"Alex Plosivo"
          },
-         {
-            "id":5,
-            "cliente":{
-               "id":22,
-               "nombre":"Andres Cupido",
-               "cedula":56752659,
-               "direccion":"Miraflores 2314"
-            },
-            "odometro":400
+         concesionario_id:1
+      },
+      {
+         "id":10,
+         "sucursal":"Cerro Profundo",
+         "odometro":30000,
+         "fecha_entrada":"2021-04-01",
+         "fecha_salida":null,
+         "nro_orden":52,
+         "tipo_orden":"EXT",
+         "motivo_ingreso":"MAN",
+         "detalle":null,
+         "monto_factura":null,
+         "vehiculo":{
+            "nro_vin":"11223344556677889",
+            "nro_motor":"113399",
+            "modelo":"Zafiro",
+            "version":"Full",
+	    "color":"Plata",
+            "fecha_alta":"2020-12-01",
+            "publico":true,
+            "image":null,
+            "nro_matricula":"arc0007"
          },
-         {
-            "id":6,
-            "cliente":{
-               "id":26,
-               "nombre":"Desde Api Gutierrez",
-               "cedula":23453456,
-               "direccion":"Lei Land 2020"
-            },
-            "odometro":3455
-         }
-      ],
-      "matricula":"saa1414",
-      "modelo":"galop"
-   }
+         "cliente":{
+            "id":3,
+	    "tipo_identificador":"RUT",
+            "nro_identificador":123456780012,
+            "direccion":"Miraflores 4444",
+            "localidad":"Maldonado",
+            "departamento":"Maldonado",
+            "pais":"Uruguay",
+            "telefono":"45558888",
+            "celular":"099112233",
+            "email":"info@tontaprole.com.uy",
+            "concesionario_id":1,
+            "nombre":"Tontaprole S.A."
+         },
+         concesionario_id:1
+      }
+   ]
 }
