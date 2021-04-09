@@ -94,7 +94,7 @@
             "concesionario_id":1,
             "nombre":"Inés Queleto"
          },
-         concesionario_id:1
+         "concesionario_id":1
       },
       {
          "id":5,
@@ -132,7 +132,7 @@
             "concesionario_id":1,
             "nombre":"Alex Plosivo"
          },
-         concesionario_id:1
+         "concesionario_id":1
       },
       {
          "id":10,
@@ -170,7 +170,7 @@
             "concesionario_id":1,
             "nombre":"Tontaprole S.A."
          },
-         concesionario_id:1
+         "concesionario_id":1
       }
    ]
 }
