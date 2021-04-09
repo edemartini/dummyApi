@@ -57,7 +57,7 @@
          "nombre":"Alex Plosivo"
       }
    ],
-   "servicios":[
+   "servicios_en_proceso":[
       {
          "id":2,
          "sucursal":"San José",
